@@ -1,0 +1,440 @@
+/*
+Template Name:Jewelry
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+
+   }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+   border:none!important;
+   }
+
+
+/*********************shop****************/
+#shop_1{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #fff8e7;
+    border-top: 1px solid #ffd46b;
+ }
+.shop_1_top ul li{
+  display:inline-block;
+  margin-right:10px;
+ }
+.shop_1_top ul li a{
+  font-size:14px;
+  color:#333333;
+ }
+.shop_1_top ul li a i{
+  font-size:8px;
+  color:#333333;
+  margin-left:6px;
+ }
+.shop_1_top ul li a:hover{
+  color:#996600;
+ }
+/*********************shop_end****************/
+
+/*********************shop_2****************/
+#shop_2{
+  background-image: url(../img/46.jpg);
+  min-height:300px;
+  background-repeat:no-repeat;
+  padding-top:100px;
+  background-position: center;
+ }
+.shop_2_top_right_inner h2{
+  font-size:38px;
+  color:#fff;
+  padding-bottom:10px;
+ } 
+.shop_2_top_right_inner p{
+  font-size:18px;
+  color:#fff;
+  letter-spacing:1px;
+ } 
+/*********************shop_2_end****************/
+
+/*********************shop_3****************/
+#shop_3 .ring_top_1{
+  font-size:20px;
+  font-weight:100;
+ }
+#shop_3 .ring_top_2{
+  font-size:16px;
+  margin-left:10px;
+  color:#999999;
+ }
+#shop_3 .btn-group, .btn-group-vertical {
+    float: right;
+}
+#shop_3 .well {
+   background:none;
+   border: none;
+  -webkit-box-shadow: none!important;
+   box-shadow: none!important;
+}
+#shop_3 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle){
+    color: #f17c19;
+    font-size: 26px;
+    border: none!important;
+ }
+#shop_3 .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+    font-size: 26px;
+    color: #696565;
+	border: none!important;
+}
+.shop_3_middle ul .price_main .caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    display: inline-block;
+    margin-left: 20px!important;
+    vertical-align: middle;
+}
+.shop_3_middle ul {
+  padding-bottom:30px;
+  }
+.shop_3_middle .open>.dropdown-menu {
+    display: block;
+    border: 1px solid #e6ad8c;
+	padding-bottom: 10px;
+}
+.shop_3_middle ul .price_main_1{
+  display:inline-block;
+  margin-right:10px;
+ }
+.shop_3_middle ul .price_main_2{
+  display:inline-block;
+ }
+.shop_3_middle ul .price_main_2 .price_2{
+  padding:6px 18px;
+  border:1px solid #c5c3c3;
+  font-size:15px;
+  text-decoration:none;
+  color:#666666;
+ }
+.shop_3_middle ul .price_main_2 .price_2 i{
+  margin-right:5px;
+  }
+.shop_3_middle ul .price_main{
+  display:inline-block;
+  margin-right:20px;
+  padding:6px 18px;
+  border:1px solid #c5c3c3;
+ }
+.shop_3_middle ul .price_main .price_1{
+  font-size:15px;
+  text-decoration:none;
+  color:#666666;
+ }
+.shop_3_center_right{
+  padding:0;
+  margin:0;
+ }
+.shop_3_center_right_inner .price_main{
+  float:right;
+  padding:6px 18px;
+  border:1px solid #c5c3c3;
+ }
+.shop_3_center_right_inner .price_main .price_1{
+  font-size:15px;
+  text-decoration:none;
+  color:#666666;
+ }
+#shop_3 .grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	min-width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	width: 100%;
+	background: #fff!important;
+	text-align: center;
+	cursor: pointer;
+}
+
+#shop_3 .grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+#shop_3 .grid figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+figure.effect-julia {
+	background: #2f3238;
+}
+
+figure.effect-julia img {
+	max-width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-julia figcaption {
+	text-align: left;
+}
+figure.effect-julia p:first-child {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-julia p:nth-of-type(2) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia p:nth-of-type(3) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:first-child {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+figure.effect-julia:hover p:nth-of-type(2) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-julia:hover p:nth-of-type(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-julia:hover img {
+	opacity: 0.8;
+	-webkit-transform: scale3d(1.1,1.1,1);
+	transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-julia:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.item.list-group-item:nth-of-type(odd):hover, .item.list-group-item:hover {
+    background: #e6a66f!important;
+}
+#shop_3 .thumbnail
+{
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+	border: 1px solid #d5c594;
+}
+
+.item.list-group-item
+{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+	padding:3px 3px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover
+{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image
+{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail
+{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption
+{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd)
+{
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after
+{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img
+{
+    float: left;
+}
+.item.list-group-item:after
+{
+    clear: both;
+}
+.list-group-item-text
+{
+    margin: 0 0 11px;
+}
+.thumbnail .caption {
+   padding: 0px;
+}
+.shop_3_bottom{
+  border-top:1px solid #d5c594;
+ }
+.shop_3_bottom_left{
+  padding:0;
+  margin:0;
+  }
+.shop_3_bottom_left_inner p{
+  font-size:18px;
+  padding-top:50px;
+  text-align:center;
+ }
+.shop_3_bottom_left_inner p i{
+  margin-right:5px;
+  }
+.shop_3_bottom_right {
+  border-left:1px solid #d5c594;
+  }
+.shop_3_bottom_right_inner p{
+  padding-top:10px;
+ }
+.shop_3_bottom_right_inner p a{
+   font-size:18px;
+   color:#715609;
+  }
+.shop_3_bottom_right_inner p a:hover{
+   color:#3d341a;
+  }
+.shop_3_bottom_right_inner h5{
+   font-size:16px;
+   color:#987719;
+   padding-top:10px;
+   padding-bottom:10px;
+  }
+.shop_3_bottom_right_inner h6{
+ padding-bottom: 50px;
+  }
+.shop_3_bottom_right_inner h6 a{
+   font-size:15px;
+   font-weight:100;
+   color:#3d341a;
+  }
+/*********************shop_3_end****************/
+
+
+
+
+
+@media screen and (max-width : 767px){
+.shop_1_top ul {
+  text-align:center;
+ }
+.shop_2_top_right_inner{
+   text-align:center;
+ }
+.shop_3_top{
+  text-align:center;
+ }
+.shop_3_middle ul .price_main {
+    margin-bottom: 10px;
+}
+#shop_3 .grid figure img {
+    min-width: 100%;
+}
+}
+
+@media (min-width:768px) and (max-width:960px) { 
+.shop_3_middle ul .price_main .price_1 {
+    font-size: 13px;
+}
+}
+
+@media (min-width:961px) and (max-width:1200px) {
+#shop_3 .container {
+    width: auto;
+}
+.footer_top_left_inner h4 {
+    font-size: 15px;
+}
+
+}
+@media (min-width:1201px) and (max-width:1250px) {
+
+ }
+
+
+
+
+
